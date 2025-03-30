@@ -1,7 +1,7 @@
 import streamlit as st  
 import pandas as pd
 
-geoMap= st.Page(page="src\map.py",
+geoMap= st.Page(page="sda-final/src/map.py",
                 
             title="Geographical Distribution",
             icon=":material/globe:",
