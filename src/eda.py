@@ -17,7 +17,7 @@ def filter_two(df,year):
 
 st.header("Exploratory Data Analysis")
 
-df = pd.read_csv(r"sda-final/data/hotel_booking_demand.csv",encoding="utf-8")
+df = pd.read_csv(r"data/hotel_booking_demand.csv",encoding="utf-8")
 df=df[df["is_canceled"]==0]
 df["arrival_date_year"]=df["arrival_date_year"].astype(int)
 def bookings_category(x):
