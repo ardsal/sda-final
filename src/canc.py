@@ -22,7 +22,7 @@ def bookings_category(x):
 
 
 
-df = pd.read_csv(r"sda-final/data/hotel_booking_demand.csv",encoding="utf-8")
+df = pd.read_csv(r"data/hotel_booking_demand.csv",encoding="utf-8")
 
 df["book_window"]=df["lead_time"].apply(bookings_category)
 
