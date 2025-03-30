@@ -8,13 +8,13 @@ geoMap= st.Page(page="sda-final/src/map.py",
             default=True        
 )
 
-generalEDA = st.Page(page="src\eda.py",
+generalEDA = st.Page(page="sda-final/src/eda.py",
                      title="Exploratory Data Analysis",
                      icon=":material/monitoring:"
                      )
 
 
-canc = st.Page(page="src\canc.py",
+canc = st.Page(page="sda-final/src/canc.py",
                title="Cancelation Flow",
                icon=":material/schema:"
                )
