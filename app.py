@@ -1,20 +1,20 @@
 import streamlit as st  
 import pandas as pd
 
-geoMap= st.Page(page="sda-final/src/map.py",
+geoMap= st.Page(page="src/map.py",
                 
             title="Geographical Distribution",
             icon=":material/globe:",
             default=True        
 )
 
-generalEDA = st.Page(page="sda-final/src/eda.py",
+generalEDA = st.Page(page="src/eda.py",
                      title="Exploratory Data Analysis",
                      icon=":material/monitoring:"
                      )
 
 
-canc = st.Page(page="sda-final/src/canc.py",
+canc = st.Page(page="src/canc.py",
                title="Cancelation Flow",
                icon=":material/schema:"
                )
