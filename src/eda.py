@@ -97,7 +97,7 @@ with col3:
                  "Early Booking":"dark blue",
                  "Last Minute":"light red",
                  "Super Last Minute":"dark red",
-                 "Moderate":"light blue"}
+                 "Moderate":"light blue"},
                category_orders={"arrival_date_month": month_order},facet_col="arrival_date_year",
                labels={"arrival_date_month":"Month",
                        "arrival_date_year":"Year",
