@@ -93,11 +93,11 @@ with col3:
     st.markdown("**Booking Window**")
     fig3=px.bar(data_frame=booking_window,x="arrival_date_month",
                y="book_wind_count",barmode ="stack",color_discrete_map =
-                {"Super Early Booking":"green",
-                 "Early Booking":"dark blue",
-                 "Last Minute":"light red",
-                 "Super Last Minute":"dark red",
-                 "Moderate":"light blue"},
+                {"Super Early Booking":"#2CA02C",
+                 "Early Booking":"#19D3F3",
+                 "Last Minute":"#FF6692",
+                 "Super Last Minute":"#B82E2E",
+                 "Moderate":"#FFA15A"},
                category_orders={"arrival_date_month": month_order},facet_col="arrival_date_year",
                labels={"arrival_date_month":"Month",
                        "arrival_date_year":"Year",
