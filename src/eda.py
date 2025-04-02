@@ -92,7 +92,12 @@ top_countries["arrival_date_year"] = top_countries["arrival_date_year"].astype(s
 with col3:
     st.markdown("**Booking Window**")
     fig3=px.bar(data_frame=booking_window,x="arrival_date_month",
-               y="book_wind_count",barmode ="stack", color = "book_window",
+               y="book_wind_count",barmode ="stack",color_discrete_map =
+                {"Super Early Booking":"green",
+                 "Early Booking":"dark blue",
+                 "Last Minute":"light red",
+                 "Super Last Minute":"dark red",
+                 "Moderate":"light blue"}
                category_orders={"arrival_date_month": month_order},facet_col="arrival_date_year",
                labels={"arrival_date_month":"Month",
                        "arrival_date_year":"Year",
