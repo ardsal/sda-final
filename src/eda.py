@@ -92,7 +92,7 @@ top_countries["arrival_date_year"] = top_countries["arrival_date_year"].astype(s
 with col3:
     st.markdown("**Booking Window**")
     fig3=px.bar(data_frame=booking_window,x="arrival_date_month",
-               y="book_wind_count",barmode ="stack",color_discrete_map =
+               y="book_wind_count",barmode ="stack",color="book_window",color_discrete_map =
                 {"Super Early Booking":"#2CA02C",
                  "Early Booking":"#19D3F3",
                  "Last Minute":"#FF6692",
